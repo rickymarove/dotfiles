@@ -1,0 +1,44 @@
+[colors]
+background = "#1f201cFF"
+text_primary = "#e4e3dbFF"
+text_muted = "#c5c8b9FF"
+accent_primary = "#b7cf8fFF"
+accent_secondary = "#c1caacFF"
+warning = "#94d4b9FF"
+error = "#ffb4abFF"
+insert_hint = "#94d4b980"
+backdrop = "#45483dFF"
+
+[colors.border]
+focused = "#b7cf8fFF"
+unfocused = "#45483dFF"
+outer = "#131410FF"
+
+[colors.overview]
+background_tint = "#13141088"
+badge = "#b7cf8fFF"
+workspace_background = "#131410FF"
+
+[colors.tab_bar]
+background = "#1f201cFF"
+text = "#c5c8b9FF"
+active = "#b7cf8fFF"
+active_text = "#233606FF"
+active_unfocused = "#45483dFF"
+active_unfocused_text = "#e4e3dbFF"
+urgent = "#ffb4abFF"
+urgent_text = "#690005FF"
+
+[colors.title_bar]
+background = "#1f201cFF"
+background_unfocused = "#131410FF"
+text = "#e4e3dbFF"
+text_unfocused = "#c5c8b9FF"
+close = "#ffb4abFF"
+maximize = "#b7cf8fFF"
+minimize = "#c1caacFF"
+
+[[window_rule]]
+match.is_scratchpad = true
+border_color_focused = "#94d4b9FF"
+border_color_unfocused = "#2d6c56FF"

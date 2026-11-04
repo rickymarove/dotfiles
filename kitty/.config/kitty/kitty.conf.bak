@@ -1,0 +1,4 @@
+shell /usr/bin/fish
+background_opacity 0.85
+dynamic_background_opacity yes
+font_family JetBrainsMono Nerd Font
