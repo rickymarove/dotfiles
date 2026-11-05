@@ -4,16 +4,6 @@ My personal Fedora Linux dotfiles. A minimal, modern desktop setup focused on ae
 
 Built around **Umbriel + Noctalia**, Kitty, Fish, and Starship.
 
-## Preview
-
-<!-- Replace these placeholders with your actual screenshots -->
-<p align="center">
-  <img src="assets/desktop.png" width="800" alt="Desktop preview">
-</p>
-
-<p align="center">
-  <i>Desktop preview — coming soon.</i>
-</p>
 
 ## Setup
 
@@ -29,7 +19,6 @@ Built around **Umbriel + Noctalia**, Kitty, Fish, and Starship.
 | Terminal theme | Catppuccin Mocha |
 | Terminal font | JetBrainsMono Nerd Font |
 | Emoji font | Noto Color Emoji |
-| Dotfile manager | GNU Stow |
 
 ## Features
 
@@ -68,9 +57,6 @@ dotfiles/
 │           ├── config.toml
 │           └── noctalia.toml
 │
-├── assets/
-│   └── desktop.png
-│
 ├── packages.txt
 ├── .gitignore
 └── README.md
@@ -108,15 +94,11 @@ cd ~/Projects/dotfiles
 
 ### 3. Back up existing configurations
 
-Before creating symlinks, back up any existing configuration files that could conflict with GNU Stow.
+Before creating symlinks, back up any existing configuration files that could conflict with your current configuration.
 
 ### 4. Apply the dotfiles
 
-```bash
-stow kitty fish starship umbriel
-```
-
-Omit `umbriel` if you don't want to apply the compositor configuration.
+The provided dotfiles are pretty straightforward to apply, just be careful in connecting fish with starship
 
 ### 5. Restart your applications
 
@@ -159,7 +141,6 @@ Umbriel handles window management, window rules, and compositor effects. Noctali
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [Noto Fonts](https://fonts.google.com/noto)
 - [Noctalia](https://noctalia.dev/)
-- [GNU Stow](https://www.gnu.org/software/stow/)
 
 ## License
 
@@ -167,6 +148,3 @@ These are my personal configuration files. Feel free to explore, adapt, and use 
 
 ---
 
-<p align="center">
-  <i>Crafted with ☕ and Linux.</i>
-</p>
